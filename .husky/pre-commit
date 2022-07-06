@@ -1,0 +1,11 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+echo "Checking styles and linting"
+echo "--Pretier"
+yarn run format
+echo "--ESlint"
+yarn run lint
+echo "Good job :)"
+
+
