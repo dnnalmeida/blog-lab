@@ -3,9 +3,9 @@
 
 echo "Checking styles and linting"
 echo "--Pretier"
-yarn run format
+yarn format
 echo "--ESlint"
-yarn run lint
+yarn lint-staged
 echo "Good job :)"
 
 
