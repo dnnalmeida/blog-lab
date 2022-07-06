@@ -2,9 +2,7 @@
 . "$(dirname -- "$0")/_/husky.sh"
 
 echo "Checking styles and linting"
-echo "--Pretier"
-yarn format
-echo "--ESlint"
+echo "***** Lint Staged *****"
 yarn lint-staged
 echo "Good job :)"
 
